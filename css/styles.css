@@ -1,0 +1,143 @@
+h1 {
+    font-family: 'Sacramento', cursive;
+    /*100% in font size actually means 16px = 1em(units) so if we need 90 use 90/16*100 = 5.625rm */
+    font-size: 5.625rem; /* use rem rather than em because rem is not going to add additional size on top of the parent font sizes*/
+    margin: 50px auto 0 auto;
+    color: #66BFBF;
+}
+
+h2 {
+    color: #66BFBF;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem; /* 40px in font size 40/16 = 2.5em */
+    font-weight:normal;
+}
+
+h3 {
+    color: #11999E;
+    font-family: 'Montserrat', sans-serif;
+    font-weight:bold;
+}
+
+
+body {
+    margin:0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    color:#40514E;
+}
+hr {
+    border-style: none;
+    border-top-style: dotted;
+    border-color: #EAF6F6;
+    border-width: 8px;
+    margin: 20px auto;
+    width: 8%;
+    }
+
+.profile{
+    text-align: center;
+    width: 0 auto 0 auto;
+}
+.personal-description{
+    text-align: center;
+    line-height:2;
+    margin: 0 15% 0 15%;
+}
+.top-container{
+    background-color:#E4F9F5;
+    position:relative;
+    padding-top: 100px;
+}
+
+.middle-container{
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.bottom-container{
+    background-color: #66BFBF;
+    padding: 20px;
+}
+
+.pro{
+    text-decoration:underline;}
+/* since h1 is a block set with specific width, we need to use "margin: 0 auto 0 auto" to center the block*/
+
+.bottom-cloud{
+    position: absolute;
+    bottom:250px;
+    left:300px;
+}
+
+.top-cloud{
+    position: absolute;
+    top:50px;
+    right:300px;
+}
+
+.skill-row{
+    line-height: 2;
+    margin: 50px auto 0px auto;
+    width: 50%;
+    text-align: left;
+}
+
+.code-img{
+    width: 25%;
+    margin-right:30px;
+    float: left; /* img will be wrapped with text */
+}
+
+.improvement-img{
+    width: 25%;
+    margin-left:30px;
+    float: right; /* img will be wrapped with text */
+}
+
+
+.footer-link{
+    text-decoration: none;
+    color: #11999E;
+ }
+
+.footer-link:hover{
+    text-decoration: none;
+    color: #EAF6F6;
+}
+
+
+.selfie{
+    margin-top: 50px;
+}
+
+.contact-me{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.btn {
+  background: #11cdd4;
+  background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+  -webkit-border-radius: 10;
+  -moz-border-radius: 10;
+  border-radius: 10px;
+  font-family: Georgia;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #30e3cb;
+  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+  text-decoration: none;
+}
